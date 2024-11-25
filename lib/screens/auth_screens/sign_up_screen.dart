@@ -173,9 +173,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 controller: _taxIdController,
                               ),
                               const SizedBox(height: 20),
-                              AddressInputWidget(
-                                  apiKey:
-                                      "AIzaSyB2rD5Cn6uOQvK40HBodTYwJi5OCx51aOE"),
+                              AddressInputWidget(apiKey: ""),
                               const SizedBox(height: 20),
                               CustomTextField(
                                 labelText: "Password",
